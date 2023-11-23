@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .loading-container {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.8);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .loader {
+      border: 8px solid #f3f3f3;
+      border-top: 8px solid #3498db;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    #meuFormulario {
+      display: none;
+    }
+  </style>
+  <title>Seu Formulário</title>
+</head>
+<body>
+  <div class="loading-container" id="loading-container">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Seu formulário aqui -->
+  <form id="meuFormulario">
+    <!-- Seus campos e botões aqui -->
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição no Curso de Informática Básica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição no Curso de Informática Básica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        .center-text {
+            text-align: center;
+            color: blue; /* Set the title color to blue */
+        }
+    </style>
+</head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+    .center-text {
+        text-align: center;
+    }
+</style>
+<body>
+
+    <h1 class="center-text">Formulário</h1>
+
+    <!-- Restante do seu formulário aqui -->
+
+</body>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        .icon {
+            margin-right: 8px;
+            color: #4caf50; /* Cor verde */
+        }
+
+        .icon-error {
+            margin-right: 8px;
+            color: #ff0000; /* Cor vermelha */
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="registrationForm" class="animate__animated animate__fadeInDown">
+        <label for="fullName" class="animate__animated animate__fadeInLeft">Nome Completo:</label>
+        <div class="animate__animated animate__fadeInRight">
+            <i class="icon fas fa-user"></i>
+            <input type="text" id="fullName" name="fullName" required>
+        </div>
+
+        <label for="email" class="animate__animated animate__fadeInLeft">E-mail:</label>
+        <div class="animate__animated animate__fadeInRight">
+            <i class="icon fas fa-envelope"></i>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <label for="phone" class="animate__animated animate__fadeInLeft">Telefone:</label>
+        <div class="animate__animated animate__fadeInRight">
+            <i class="icon fas fa-phone"></i>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <label for="birthDate" class="animate__animated animate__fadeInLeft">Data de Nascimento:</label>
+        <div class="animate__animated animate__fadeInRight">
+            <i class="icon fas fa-calendar"></i>
+            <input type="date" id="birthDate" name="birthDate" required>
+        </div>
+
+        <label for="education" class="animate__animated animate__fadeInLeft">Escolaridade:</label>
+        <div class="animate__animated animate__fadeInRight">
+            <i class="icon fas fa-graduation-cap"></i>
+            <select id="education" name="education" required>
+                <option value="">Selecione</option>
+                <option value="fundamental">Ensino Fundamental</option>
+                <option value="medio">Ensino Médio</option>
+                <option value="superior">Ensino Superior</option>
+            </select>
+        </div>
+
+        <label for="courseMode" class="animate__animated animate__fadeInLeft">Modalidade do Curso:</label>
+        <div class="animate__animated animate__fadeInRight">
+            <i class="icon fas fa-chalkboard"></i>
+            <select id="courseMode" name="courseMode" required>
+                <option value="">Selecione</option>
+                <option value="online">Online</option>
+                <option value="presencial">Presencial</option>
+            </select>
+        </div>
+
+        <label for="province" class="animate__animated animate__fadeInLeft">Província:</label>
+        <div class="animate__animated animate__fadeInRight">
+            <i class="icon fas fa-map-marker-alt"></i>
+            <select id="province" name="province" required>
+                <option value="">Selecione</option>
+                <option value="Cabo Delgado">Cabo Delgado</option>
+                <option value="Gaza">Gaza</option>
+                <option value="Inhambane">Inhambane</option>
+                <option value="Manica">Manica</option>
+                <option value="Maputo (cidade)">Maputo (cidade)</option>
+                <option value="Maputo (província)">Maputo (província)</option>
+                <option value="Nampula">Nampula</option>
+                <option value="Niassa">Niassa</option>
+                <option value="Sofala">Sofala</option>
+                <option value="Tete">Tete</option>
+                <option value="Zambezia">Zambezia</option>
+            </select>
+        </div>
+
+        <label for="district" class="animate__animated animate__fadeInLeft">Distrito:</label>
+        <div class="animate__animated animate__fadeInRight">
+            <i class="icon fas fa-map-marked"></i>
+            <select id="district" name="district" required>
+                <option value="">Selecione</option>
+                <option value="Angónia">Angónia</option>
+                <option value="Cahora-Bassa">Cahora-Bassa</option>
+                <option value="Changara">Changara</option>
+                <option value="Chifunde">Chifunde</option>
+                <option value="Macanga">Macanga</option>
+                <option value="Magoe">Magoe</option>
+                <option value="Marávia">Marávia</option>
+                <option value="Moatize">Moatize</option>
+                <option value="Môecúa">Môecúa</option>
+                <option value="Mutarara">Mutarara</option>
+                <option value="Zumbo">Zumbo</option>
+            </select>
+        </div>
+
+        <label for="neighborhood" class="animate__animated animate__fadeInLeft">Bairro:</label>
+        <div class="animate__animated animate__fadeInRight">
+            <i class="icon fas fa-home"></i>
+            <select id="neighborhood" name="neighborhood" required>
+                <option value="">Selecione</option>
+                <option value="Emilia Dausse">Emilia Dausse</option>
+                <option value="Francisco Manhanga">Francisco Manhanga</option>
+                <option value="Filipe Samuel Magaia">Filipe Samuel Magaia</option>
+                <option value="Mateus Sansão Mutemba">Mateus Sansão Mutemba</option>
+                <option value="Josina Machel">Josina Machel</option>
+                <option value="Chindeque">Chindeque</option>
+            </select>
+        </div>
+
+        <button type="button" onclick="prepareAndSendEmail()" id="submitButton" class="animate__animated animate__fadeInUp">
+            <i class="icon fas fa-paper-plane"></i> Enviar Inscrição
+        </button>
+    </form>
+
+    <script>
+        function prepareAndSendEmail() {
+            // Verifica se todos os campos estão preenchidos
+            var fullName = document.getElementById("fullName").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+            var birthDate = document.getElementById("birthDate").value;
+            var education = document.getElementById("education").value;
+            var courseMode = document.getElementById("courseMode").value;
+            var province = document.getElementById("province").value;
+            var district = document.getElementById("district").value;
+            var neighborhood = document.getElementById("neighborhood").value;
+
+            if (!fullName || !email || !phone || !birthDate || !education || !courseMode || !province || !district || !neighborhood) {
+                alert("Por favor, preencha todos os campos do formulário.");
+                return;
+            }
+
+            // Desabilita o botão para evitar múltiplos envios
+            document.getElementById("submitButton").disabled = true;
+            document.getElementById("submitButton").innerHTML = '<i class="icon fas fa-spinner fa-spin"></i> Enviando...';
+
+            // Preparar conteúdo do e-mail
+            var emailSubject = "Inscrição no Curso de Informática Básica";
+            var emailBody = "Nome: " + fullName +
+                            "\nE-mail: " + email +
+                            "\nTelefone: " + phone +
+                            "\nData de Nascimento: " + birthDate +
+                            "\nEscolaridade: " + education +
+                            "\nModalidade do Curso: " + courseMode +
+                            "\nProvíncia: " + province +
+                            "\nDistrito: " + district +
+                            "\nBairro: " + neighborhood;
+
+            // Montar link de e-mail
+            var emailLink = "mailto:nelsonorlandoxerife34@gmail.com?subject=" + encodeURIComponent(emailSubject) + "&body=" + encodeURIComponent(emailBody);
+            
+            // Abre o cliente de e-mail padrão com o link
+            window.location.href = emailLink;
+
+            // Reabilita o botão após um curto atraso (ajuste conforme necessário)
+            setTimeout(function() {
+                document.getElementById("submitButton").disabled = false;
+                document.getElementById("submitButton").innerHTML = '<i class="icon fas fa-paper-plane"></i> Enviar Inscrição';
+            }, 2000);  // 2000 milissegundos (2 segundos) de atraso como exemplo
+        }
+    </script>
+</body>
+</html>
+
+  </form>
+
+  <script>
+    document.getElementById('meuFormulario').style.display = 'none';
+
+    setTimeout(function() {
+      document.getElementById('loading-container').style.display = 'none';
+      document.getElementById('meuFormulario').style.display = 'block';
+    }, 2000);
+  </script>
+</body>
+</html>
